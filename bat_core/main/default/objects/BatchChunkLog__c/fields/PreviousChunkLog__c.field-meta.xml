@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PreviousChunkLog__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Previous batch log</label>
+    <referenceTo>BatchChunkLog__c</referenceTo>
+    <relationshipLabel>Batch chunk log</relationshipLabel>
+    <relationshipName>Batch_chunk_log</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

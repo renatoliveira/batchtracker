@@ -1,0 +1,33 @@
+{
+    "packageDirectories": [
+        {
+            "path": "bat_core",
+            "default": true,
+            "package": "Batch Track Core",
+            "versionNumber": "1.0.0.0"
+        },
+        {
+            "path": "bat_app",
+            "default": false,
+            "package": "Batch Track Lightning App",
+            "versionNumber": "0.0.1.NEXT",
+            "dependencies": [
+                {
+                    "package": "Batch Track Core"
+                }
+            ]
+        }
+    ],
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "46.0",
+    "packageAliases": {
+        "Batch Track Core": "0Hof4000000GmqRCAS",
+        "Batch Track Core@0.0.1-2": "04tf4000003zaF8AAI",
+        "Batch Track Core@0.0.3-1": "04tf4000003zaFIAAY",
+        "Batch Track Core@0.0.4-1": "04tf4000003zaFSAAY",
+        "Batch Track Core@0.0.4-2": "04tf4000003zaFXAAY",
+        "Batch Track Core@0.0.5-1": "04tf4000003zaGLAAY",
+        "Batch Track Core@1.0.0-0": "04tf4000003zaGVAAY"
+    }
+}
