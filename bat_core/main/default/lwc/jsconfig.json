@@ -2,7 +2,11 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/bat_realtimetracker": [
+                "../../../../bat_app/main/default/lwc/bat_realtimetracker/bat_realtimetracker.js"
+            ]
+        }
     },
     "include": [
         "**/*",
