@@ -1,7 +1,7 @@
 public class bat_BatchExample implements Database.Batchable<SObject> {
 
     public Database.QueryLocator start(Database.BatchableContext bc) {
-        return Database.getQueryLocator('SELECT Id FROM Account WHERE UUID__c = NULL');
+        return Database.getQueryLocator('SELECT Id FROM Account');
     }
 
     public void execute(Database.BatchableContext bc, List<Account> scope) {
