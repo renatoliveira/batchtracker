@@ -14,3 +14,5 @@ package.xml
 bat_app/main/default/profiles/*
 bat_core/main/default/profiles/*
 .vscode/settings.json
+
+bat_app/main/default/appMenus/AppSwitcher.appMenu-meta.xml
