@@ -1,0 +1,15 @@
+<template>
+    <lightning-card title={title} icon-name="custom:custom73">
+        <tempalte if:true={data}>
+            <div class="slds-theme_default">
+                <lightning-datatable
+                    title="Tracking events"
+                    columns={columns}
+                    data={data}
+                    hide-checkbox-column
+                    key-field="id">
+                </lightning-datatable>
+            </div>
+        </tempalte>
+    </lightning-card>
+</template>
